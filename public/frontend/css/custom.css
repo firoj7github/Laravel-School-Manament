@@ -1,0 +1,13 @@
+.nav-style{
+   background-color: rgb(15, 12, 12);
+   height: 70px;
+}
+.link-bg{
+    background-color: rgb(194, 66, 66);
+    border: 1px solid dimgrey;
+    color: rgb(70, 202, 202);
+    font-weight: 500;
+}
+.link-bg:hover{
+    background-color: darkcyan;
+}

@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', [App\Http\Controllers\FrontendController::class, 'front'])->name('/');
+Route::get('notice', [App\Http\Controllers\FrontendController::class, 'notice'])->name('notice');
