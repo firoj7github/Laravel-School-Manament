@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class View extends Model
 {
     use HasFactory;
-    protected $table ='class';
+    protected $table ='views';
     protected $fillable = [
         'teacher',
         'subject',

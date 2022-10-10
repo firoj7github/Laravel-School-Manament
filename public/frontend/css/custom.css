@@ -98,69 +98,15 @@
 
 /* Boottrap slider css */
 
-.carousel-item{
-    min-height: 100vh;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    
-}
-.slider-img{
-    width: 350px;
-    height: 300px;
-    margin-top: 35px;
-}
-.slider-two-img{
-    width: 350px;
-    height: 300px;
-    margin-top: 55px;
-}
-.slider-three-img {
-    width: 350px;
-    height: 300px;
-    margin-top: 60px;
-}
-.slider-des h1{
- color: white;   
-}
 
-.img-1{
- margin-top: 90px;
- 
- 
-}
-.img-2{
- margin-top: 40px;
-}
-.img-3{
- margin-top: 90px;
-}
-.slider-des button{
-    background-color: coral;
-    margin-top: 10px;
-    border-radius: 5px ;
-    border: 1px solid coral;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: beige;
-}
-.slider-des h1{
-    margin-top: 9px;
+
+
+
     
 
 
-}
-.slide-one{
-background-color: darkcyan;
-}
-.slide-two{
-background-color: rgb(99, 15, 57);
-}
-.slide-three{
-background-color: rgb(14, 73, 133);
-}
+
+
 
 /* Slider css close */
 
@@ -313,36 +259,42 @@ background-color: cornflowerblue;
 }
 
 /* Boottrap slider css */
-
 .carousel-item{
-    height: 730px;
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
 }
+
+
+
 .slider-img{
     width: 350px;
     height: 300px;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 .slider-two-img{
     width: 350px;
     height: 300px;
-    margin-top: 55px;
+    margin-top: 67px;
 }
 .slider-three-img {
     width: 350px;
     height: 300px;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .img-1{
- margin-top: 90px;
+ margin-top: 110px;
  
  
 }
 .img-2{
- margin-top: 40px;
+ margin-top: 50px;
 }
 .img-3{
- margin-top: 90px;
+ margin-top: 110px;
 }
 .slider-des button{
     background-color: coral;
@@ -357,6 +309,7 @@ background-color: cornflowerblue;
 }
 .slider-des h1{
     margin-top: 9px;
+    color: white;
     
 
 
@@ -512,14 +465,14 @@ background-color: cornflowerblue;
 /* Boottrap slider css */
 
 .carousel-item{
-    height: 720px;
+    height: 100vh;
     z-index: 0;
     width: 100%;
 }
 .slider-img{
     width: 350px;
     height: 300px;
-    margin-top: 35px;
+    margin-top: 55px;
 }
 .slider-two-img{
     width: 350px;
@@ -534,7 +487,7 @@ background-color: cornflowerblue;
 }
 
 .img-1{
- margin-top: 90px;
+ margin-top: 100px;
  
  
 }
@@ -910,9 +863,55 @@ background-color: cornflowerblue;
         
         
     }
+    .box-title{
+        margin-left: 43px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+    .box-title-1{
+        margin-left: 80px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+    .box-title-2{
+        margin-left: 70px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+    .box-title-3{
+        margin-left: 48px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+    .icon-style{
+   
+        background-color: azure;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 22px;
+        margin-left: 141px;
+        margin-top: 17px;
+        
+        
+       
+     }
+     .box-pera{
+         margin-left: 72px;
+         width: 260px;
+     }
+     
+     .long{
+         width: 155px;
+         height: 2px;
+         background-color: aliceblue;
+         margin-left: 104px;
+         margin-bottom: 15px;
+     }
     .box-1{
-        width: 260px;
-        height: 300px;
+        width: 400px;
+        height: 350px;
         background-color: crimson;
       
        border-radius: 15px;
@@ -922,8 +921,8 @@ background-color: cornflowerblue;
        
     }
     .box-2{
-        width: 260px;
-        height: 300px;
+        width: 400px;
+        height: 350px;
     
        background-color: rgb(226, 142, 40);
       
@@ -933,8 +932,8 @@ background-color: cornflowerblue;
       
     }
     .box-3{
-        width: 260px;
-        height: 300px;
+        width: 400px;
+        height: 350px;
        background-color: darkslategrey;
        
        border-radius: 15px;
@@ -943,8 +942,8 @@ background-color: cornflowerblue;
       
     }
     .box-4{
-        width: 260px;
-        height: 300px;
+        width: 400px;
+        height: 350px;
        background-color: cornflowerblue;
        
        border-radius: 15px;
@@ -966,48 +965,95 @@ background-color: cornflowerblue;
         
         
     }
+    .box-title{
+        margin-left: 43px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+    .box-title-1{
+        margin-left: 80px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+    .box-title-2{
+        margin-left: 70px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+    .box-title-3{
+        margin-left: 48px;
+        margin-top: 15px;
+        font-size: 35px;
+    }
+    .icon-style{
+   
+        background-color: azure;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 22px;
+        margin-left: 141px;
+        margin-top: 17px;
+        
+        
+       
+     }
+     .box-pera{
+         margin-left: 72px;
+         width: 260px;
+     }
+     
+     .long{
+         width: 155px;
+         height: 2px;
+         background-color: aliceblue;
+         margin-left: 104px;
+         margin-bottom: 15px;
+     }
     .box-1{
-        width: 240px;
-        height: 300px;
+        width: 400px;
+        height: 350px;
         background-color: crimson;
       
        border-radius: 15px;
        position: relative;
-       margin-left: 180px;
+       margin-left: 150px;
       
        
     }
     .box-2{
-        width: 240px;
-        height: 300px;
+        width: 400px;
+        height: 350px;
     
        background-color: rgb(226, 142, 40);
       
        border-radius: 15px;
        position: relative;
-       margin-left: 180px;
+       margin-left: 150px;
       
     }
     .box-3{
-        width: 240px;
-        height: 300px;
+        width: 400px;
+        height: 350px;
        background-color: darkslategrey;
        
        border-radius: 15px;
        position: relative;
-       margin-left: 180px;
+       margin-left: 150px;
       
     }
     .box-4{
-        width: 240px;
-        height: 300px;
+        width: 400px;
+        height: 350px;
        background-color: cornflowerblue;
        
        border-radius: 15px;
        position: relative;
-       margin-left: 180px;
+      margin-left: 150px;
        
     } 
+    
   
  }
 @media  (min-width:921px) and (max-width:1100px)
@@ -1559,7 +1605,7 @@ background-color: cornflowerblue;
 @media  (min-width:450px) and (max-width:576px)
  {
     .carousel-item{
-        height:700px;
+        height:auto;
     }
     .slider-img{
         width: 270px;
@@ -1582,12 +1628,34 @@ background-color: cornflowerblue;
 }
 @media  (min-width:577px) and (max-width:768px)
  {
-    
+    .carousel-item{
+        height:auto;
+    }  
    
  }
 @media  (min-width:769px) and (max-width:920px)
  {
-    
+    .carousel-item{
+        height:auto;
+    }  
+    .slider-img{
+        width: 270px;
+        height: 300px;
+        
+        margin-left: -40px;
+    }
+    .slider-two-img{
+        width: 300px;
+        height: 300px;
+        margin-top: 55px;
+        margin-left: -140px;
+    }
+    .slider-three-img {
+        width: 270px;
+        height: 300px;
+        margin-top: 60px;
+        margin-left: -70px;
+    }
    
  }
 @media  (min-width:921px) and (max-width:1100px)

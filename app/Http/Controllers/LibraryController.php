@@ -10,6 +10,7 @@ use App\Models\Teacherclass;
 use App\Models\Fee;
 use App\Models\Subject;
 use App\Models\Salary;
+use App\Models\View;
 
 class LibraryController extends Controller
 {
@@ -126,6 +127,10 @@ class LibraryController extends Controller
     public function viewsalary(){
         $salary=Salary::all();
         return view('salary.viewsalary', compact('salary'));
+    }
+    public function teacherview(){
+        $teachers=View::all();
+        return view('teacher.teacherview', compact('teachers'));
     }
 
 }

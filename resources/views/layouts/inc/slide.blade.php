@@ -31,7 +31,7 @@
                 <button>Learn More</button>  
             </div>
             <div class="col-lg-6 col-md-12 col-12 slider-two-img ">
-            <img class="animate__animated animate__fadeInRight animate__delay-1s	" src="{{asset('/img/j.png')}}" alt="image here">
+            <img class="animate__animated animate__fadeInRight animate__delay-1s	mt-5" src="{{asset('/img/j.png')}}" alt="image here">
            
             </div>
         </div>

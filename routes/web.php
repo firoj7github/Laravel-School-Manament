@@ -68,6 +68,7 @@ Route::get('attendenceview', [App\Http\Controllers\LibraryController::class, 'at
 Route::get('teacherattendenceview', [App\Http\Controllers\LibraryController::class, 'teacherattendenceview'])->name('teacherattendenceview');
 Route::get('feeview', [App\Http\Controllers\LibraryController::class, 'feeview'])->name('feeview');
 Route::get('viewsalary', [App\Http\Controllers\LibraryController::class, 'viewsalary'])->name('viewsalary');
+Route::get('teacherview', [App\Http\Controllers\LibraryController::class, 'teacherview'])->name('teacherview');
 
 
 
