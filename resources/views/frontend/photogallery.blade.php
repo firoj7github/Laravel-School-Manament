@@ -7,33 +7,34 @@
 @endsection
 
 @section('content-2')
-<h1 class="heading">Photo Gallery</h1>
+<h1 class="headings">Photo Gallery</h1>
 <div class="container">
     <div class="row gallery-img">
-        <div class="col-md-4 mb-1 gallery-1 "> 
+        <div class="col-lg-4 col-md-6 col-12 mb-1 gallery-1 "> 
             <img src="{{asset('/img/p1.jpg')}}" alt="image here">
             <h5 class="ms-3">Back To School</h5>
         </div>
-        <div class="col-md-4 mb-1 gallery-1"> 
+        <div class="col-lg-4 col-md-6 col-12 mb-1 gallery-1"> 
             <img src="{{asset('/img/p2.jpg')}}" alt="image here">
             <h5 class="ms-3">Sports</h5>
         </div>
-        <div class="col-md-4 gallery-1"> 
+        <div class="col-lg-4 col-md-6 col-12 gallery-1"> 
             <img src="{{asset('/img/p3.jpg')}}" alt="image here">
             <h5 class="ms-3">Class</h5>
         </div>
-        <div class="col-md-4 gallery-1"> 
+        <div class="col-lg-4 col-md-6 col-12 gallery-1"> 
             <img src="{{asset('/img/p4.jpg')}}" alt="image here">
             <h5 class="ms-3">Art</h5>
         </div>
-        <div class="col-md-4 gallery-1"> 
+        <div class="col-lg-4 col-md-6 col-12 gallery-1"> 
             <img src="{{asset('/img/p5.jpg')}}" alt="image here">
             <h5 class="ms-3">Tiffin</h5>
         </div>
-        <div class="col-md-4 gallery-1"> 
+        <div class="col-lg-4 col-md-6 col-12 gallery-1"> 
             <img src="{{asset('/img/p7.jpg')}}" alt="image here">
             <h5 class="ms-3">Music</h5>
         </div>
+       
         
         
     </div>

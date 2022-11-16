@@ -1,22 +1,22 @@
 
 <nav class="navbar navbar-expand-lg navbar-success  fixed-top nav-count">
-        <div class="container">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">
-              oppp
+          <img height="50px" class="nav-imgs" src="{{asset('/img/0.png')}}" alt="image here">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler navbar-size border-3 border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav  mb-2 nav-ul mb-lg-0">
               
             <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">HOME</a>
+          <a class="nav-link text-white active" aria-current="page" href="/">HOME</a>
         </li>
         
        
         <li class="nav-item  dropdown">
-          <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" >
+          <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" >
             ACADEMIC
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -31,7 +31,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             ADMINISTRATION
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -45,7 +45,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             GALLERY
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -57,7 +57,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             LOGIN
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -71,7 +71,7 @@
         
        
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="{{url('about')}}">ABOUT</a>
+          <a class="nav-link text-white active" aria-current="page" href="{{url('about')}}">ABOUT</a>
         </li>
               
             </ul>

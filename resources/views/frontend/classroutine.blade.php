@@ -8,8 +8,9 @@
 @section('content-2')
 
 <div class="container">
+<h1 class="heading">Class Routine</h1>
     <div class="row ">
-        <div class="col-lg-4  mb-5">
+        <div class="col-lg-4 col-md-6 col-12  mb-5">
         <img  width="344px" height="280px" src="{{asset('/img/b1.png')}}" alt="image here"> 
         <div class="d-flex flex-row ">
         <a href="{{url('genpdf')}}" class="view-btn ps-5 pe-5 bg-dark text-white fs-5 text-decoration-none">view</a>
@@ -18,7 +19,7 @@
         </div>
         
         </div>
-        <div class="col-lg-4 ">
+        <div class="col-lg-4 col-md-6 col-12 ">
         <img width="344px" height="280px" src="{{asset('/img/b2.png')}}" alt="image here">
         <div class="d-flex flex-row ">
         <a href="{{url('genpdf')}}" class="view-btn ps-5 pe-5 bg-dark text-white fs-5 text-decoration-none">view</a>
@@ -26,7 +27,7 @@
         <a href="{{url('downpdf')}}" class="view-btn ps-4 pe-4 bg-dark text-white fs-5 text-decoration-none">Download</a>
         </div>
         </div>
-        <div class="col-lg-4 ">
+        <div class="col-lg-4 col-md-6 col-12 ">
         <img width="344px" height="280px" src="{{asset('/img/b3.png')}}" alt="image here">
         <div class="d-flex flex-row ">
         <a href="{{url('genpdf')}}" class="view-btn ps-5 pe-5 bg-dark text-white fs-5 text-decoration-none">view</a>
@@ -34,7 +35,7 @@
         <a href="{{url('downpdf')}}" class="view-btn ps-4 pe-4 bg-dark text-white fs-5 text-decoration-none">Download</a>
         </div>
         </div>
-        <div class="col-lg-4 mb-5">
+        <div class="col-lg-4 col-md-6 col-12 mb-5">
         <img  width="344px" height="280px" src="{{asset('/img/b4.png')}}" alt="image here">
         <div class="d-flex flex-row ">
         <a href="{{url('genpdf')}}" class="view-btn ps-5 pe-5 bg-dark text-white fs-5 text-decoration-none">view</a>
@@ -42,7 +43,7 @@
         <a href="{{url('downpdf')}}" class="view-btn ps-4 pe-4 bg-dark text-white fs-5 text-decoration-none">Download</a>
         </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6 col-12">
         <img width="344px" height="280px" src="{{asset('/img/b5.png')}}" alt="image here">
         <div class="d-flex flex-row ">
         <a href="{{url('genpdf')}}" class="view-btn ps-5 pe-5 bg-dark text-white fs-5 text-decoration-none">view</a>
@@ -50,7 +51,7 @@
         <a href="{{url('downpdf')}}" class="view-btn ps-4 pe-4 bg-dark text-white fs-5 text-decoration-none">Download</a>
         </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6 col-12">
         <img width="344px" height="280px" src="{{asset('/img/b6.png')}}" alt="image here">
         <div class="d-flex flex-row ">
         <a href="{{url('genpdf')}}" class="view-btn ps-5 pe-5 bg-dark text-white fs-5 text-decoration-none">view</a>
@@ -58,7 +59,7 @@
         <a href="{{url('downpdf')}}" class="view-btn ps-4 pe-4 bg-dark text-white fs-5 text-decoration-none">Download</a>
         </div>
         </div>
-        <div class="col-lg-4 mb-5">
+        <div class="col-lg-4 col-md-6 col-12 mb-5">
         <img  width="344px" height="280px" src="{{asset('/img/b7.png')}}" alt="image here">
         <div class="d-flex flex-row ">
         <a href="{{url('genpdf')}}" class="view-btn ps-5 pe-5 bg-dark text-white fs-5 text-decoration-none">view</a>
@@ -66,7 +67,7 @@
         <a href="{{url('downpdf')}}" class="view-btn ps-4 pe-4 bg-dark text-white fs-5 text-decoration-none">Download</a>
         </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6 col-12">
         <img width="344px" height="280px" src="{{asset('/img/b8.png')}}" alt="image here">
         <div class="d-flex flex-row ">
         <a href="{{url('genpdf')}}" class="view-btn ps-5 pe-5 bg-dark text-white fs-5 text-decoration-none">view</a>
@@ -74,7 +75,7 @@
         <a href="{{url('downpdf')}}" class="view-btn ps-4 pe-4 bg-dark text-white fs-5 text-decoration-none">Download</a>
         </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6 col-12">
         <img width="344px" height="280px" src="{{asset('/img/b9.png')}}" alt="image here">
         <div class="d-flex flex-row ">
         <a href="{{url('genpdf')}}" class="view-btn ps-5 pe-5 bg-dark text-white fs-5 text-decoration-none">view</a>

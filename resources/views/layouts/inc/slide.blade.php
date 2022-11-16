@@ -9,7 +9,7 @@
             <img class="img-3 animate__animated animate__fadeInDown animate__delay-0.5s	"  src="{{asset('/img/c4.png')}}" alt="image here">
 
                 <h1 class="animate__animated animate__bounce">SCHOOL & COLLAGE</h1>
-                <p>A school is an educational institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers.</p>
+                <p class="text-white">A school is an educational institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers.</p>
                 <button>Learn More</button>
                 
             </div>
@@ -23,11 +23,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12 col-12 slider-des">
-            <img class="img-1 animate__animated animate__fadeInDown animate__delay-1s	" src="{{asset('/img/c12.png')}}" alt="image here">
+            <img class="img-5 animate__animated animate__fadeInDown animate__delay-1s	" src="{{asset('/img/c12.png')}}" alt="image here">
             
 
                 <h1 class="animate__animated animate__bounce">English & Bangla Medium</h1>
-                <p>A school is an educational institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers.</p>
+                <p class="text-white">A school is an educational institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers.</p>
                 <button>Learn More</button>  
             </div>
             <div class="col-lg-6 col-md-12 col-12 slider-two-img ">
@@ -41,11 +41,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12 col-12  slider-des">
-            <img class="img-1 animate__animated animate__fadeInDown animate__delay-1s	" src="{{asset('/img/c12.png')}}" alt="image here">
+            <img class="img-5 animate__animated animate__fadeInDown animate__delay-1s	" src="{{asset('/img/c12.png')}}" alt="image here">
             
 
             <h1 class="animate__animated animate__bounce">INTERNATIONAL SCHOOL</h1>
-            <p>A school is an educational institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers.</p>
+            <p class="text-white">A school is an educational institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers.</p>
             <button>Learn More</button> 
             </div>
             <div class="col-lg-6 col-md-12 col-12 slider-three-img animate__animated animate__fadeInRight animate__delay-1s">

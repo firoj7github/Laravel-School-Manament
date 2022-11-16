@@ -32,3 +32,8 @@
   </div>
 </div>
 @endsection
+@section('content-3')
+<div class="kid-style">
+<img src="{{asset('/img/22.png')}}" alt="image here"> 
+</div>
+@endsection

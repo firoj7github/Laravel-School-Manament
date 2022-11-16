@@ -10,10 +10,10 @@
    
    <h1 class="heading">Events</h1>
     <div class="row">
-        <div class="col-md-6 notice-img">
+        <div class="col-lg-6 col-md-12 col-12 notice-img">
             <img src="{{asset('/img/23.jpg')}}" alt="image here">
         </div>
-        <div class="col-md-6 mt-5 ">
+        <div class="col-lg-6 col-md-12 col-12 mt-5 ">
         <h4 class="ms-5">Events</h4>
         <div class="line-1 ms-5"></div>
         <div class="type d-flex">
@@ -22,7 +22,7 @@
         <p class=" fs-6 ms-2">Events</hp>
         </div>
         <div class="type-2 d-flex mt-3 ms-5">
-        <i class="fa fa-clock fs-5"></i>
+        <i class="fa fa-clock-o fs-5"></i>
         <p class=" fs-6 ms-2">22/9/2022</hp>
         </div>
         </div>

@@ -1,7 +1,19 @@
 .nav-count{
-   background-color: rgb(18, 20, 20);
+   background-color: rgb(19, 17, 17);
    height: 70px;
    width: 100%;
+   
+}
+.toggle-size{
+    border-radius: 5px;
+    margin-top: -8px;
+    
+}
+.nav-imgs{
+    margin-left: 6px;
+}
+.nav-ul{
+    margin-left: 635px;
 }
 .link-bg{
     background-color: rgb(29, 133, 133);
@@ -32,17 +44,7 @@
     height: 400px;
     
 }
-.cover{
-   background: url(/img/p4.jpg);
-   width: 100%;
-   height: 200px;
-   background-size: cover;
-   background-position:center;
-   margin-bottom: 80px;
-   opacity: 90%;
- 
-   
-}
+
 .heading{
     position: absolute;
     margin-top: -160px;
@@ -258,73 +260,7 @@ background-color: cornflowerblue;
     padding: 2px;
 }
 
-/* Boottrap slider css */
-.carousel-item{
-    min-height: 700px;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    
-}
 
-
-
-.slider-img{
-    width: 350px;
-    height: 300px;
-    margin-top: 40px;
-}
-.slider-two-img{
-    width: 350px;
-    height: 300px;
-    margin-top: 67px;
-}
-.slider-three-img {
-    width: 350px;
-    height: 300px;
-    margin-top: 70px;
-}
-
-.img-1{
- margin-top: 110px;
- 
- 
-}
-.img-2{
- margin-top: 50px;
-}
-.img-3{
- margin-top: 110px;
-}
-.slider-des button{
-    background-color: coral;
-    margin-top: 10px;
-    border-radius: 5px ;
-    border: 1px solid coral;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: beige;
-}
-.slider-des h1{
-    margin-top: 9px;
-    color: white;
-    
-
-
-}
-.slide-one{
-background-color: darkcyan;
-}
-.slide-two{
-background-color: rgb(99, 15, 57);
-}
-.slide-three{
-background-color: rgb(14, 73, 133);
-}
-
-/* Slider css close */
 
 
 .card-style-1{
@@ -354,16 +290,7 @@ background-color: cornflowerblue;
     color: mediumvioletred;
 }
 
-.box-1{
-    width: 300px;
-    height: 400px;
-   background-color: rgb(226, 142, 40);
-}
-.box-1{
-    width: 300px;
-    height: 400px;
-   background-color: rgb(226, 142, 40);
-}
+
 .nav-style{
    background-color: rgb(15, 12, 12);
    height: 70px;
@@ -398,21 +325,25 @@ background-color: cornflowerblue;
     height: 400px;
     
 }
-.cover{
-   background: url(/img/p4.jpg);
-   width: 100%;
-   height: 150px;
-   background-size: cover;
-   background-position:center;
-   margin-bottom: 80px;
-   opacity: 90%;
- 
-   
-}
+
 .heading{
     position: absolute;
     margin-top: -160px;
     margin-left: 465px;
+    color: white;
+    font-size: 46px;
+}
+.headings{
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 515px;
+    color: white;
+    font-size: 46px;
+}
+.headingss{
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 535px;
     color: white;
     font-size: 46px;
 }
@@ -464,38 +395,37 @@ background-color: cornflowerblue;
 
 /* Boottrap slider css */
 
-.carousel-item{
-    height: 100vh;
-    z-index: 0;
-    width: 100%;
-}
+
 .slider-img{
     width: 350px;
     height: 300px;
-    margin-top: 55px;
+    margin-top: 62px;
 }
 .slider-two-img{
     width: 350px;
     height: 300px;
-    margin-top: 55px;
+    margin-top: 45px;
 }
 .slider-three-img{
     width: 350px;
     height: 300px;
-    margin-top: 55px;
+    margin-top: 80px;
     
 }
 
 .img-1{
- margin-top: 100px;
+ margin-top: 110px;
  
  
 }
 .img-2{
- margin-top: 40px;
+ margin-top: 50px;
 }
 .img-3{
- margin-top: 90px;
+ margin-top: 110px;
+}
+.img-5{
+ margin-top: 130px;
 }
 .slider-des button{
     background-color: coral;
@@ -509,7 +439,8 @@ background-color: cornflowerblue;
     color: beige;
 }
 .slider-des h1{
-    margin-top: 9px;
+    margin-top: 14px;
+   color: #EAEAEA;
     
 
 
@@ -517,15 +448,24 @@ background-color: cornflowerblue;
 .slide-one{
 background-color: darkcyan;
 width: 100%;
-height: 720px;
+height: 700px;
 background-size: cover;
+background-position: center;
 
 }
 .slide-two{
 background-color: rgb(99, 15, 57);
+width: 100%;
+height: 700px;
+background-size: cover;
+background-position: center;
 }
 .slide-three{
 background-color: rgb(14, 73, 133);
+width: 100%;
+height: 700px;
+background-size: cover;
+background-position: center;
 }
 
 /* Slider css close */
@@ -612,6 +552,38 @@ background-color: cornflowerblue;
    border-radius: 15px;
    position: relative;
 }
+.box-title{
+    margin-left: 28px;
+    margin-top: 15px;
+    
+}
+.box-title-1{
+    margin-left: 50px;
+    margin-top: 15px;
+   
+}
+.box-title-2{
+    margin-left: 43px;
+    margin-top: 15px;
+    
+}
+.box-title-3{
+    margin-left: 33px;
+    margin-top: 15px;
+   
+}
+.box-pera{
+    margin-left: 18px;
+    width: 260px;
+}
+
+.long{
+    width: 85px;
+    height: 2px;
+    background-color: aliceblue;
+    margin-left: 84px;
+    margin-bottom: 15px;
+}
 .icon-style{
    
    background-color: azure;
@@ -620,20 +592,14 @@ background-color: cornflowerblue;
    border-radius: 50%;
    text-align: center;
    padding-top: 12px;
-   margin-left: 81px;
+   margin-left: 87px;
    margin-top: 17px;
    
    
   
 }
 
-.long{
-    width: 55px;
-    height: 2px;
-    background-color: aliceblue;
-    margin-left: 76px;
-    margin-bottom: 12px;
-}
+
 .side-all{
     height: auto;
     margin-top: 120px;
@@ -813,7 +779,7 @@ background-color: cornflowerblue;
       
        border-radius: 15px;
        position: relative;
-       margin-left: 80px;
+       margin-left: 110px;
       
        
     }
@@ -825,7 +791,7 @@ background-color: cornflowerblue;
       
        border-radius: 15px;
        position: relative;
-       margin-left: 80px;
+       margin-left: 110px;
       
     }
     .box-3{
@@ -835,7 +801,7 @@ background-color: cornflowerblue;
        
        border-radius: 15px;
        position: relative;
-       margin-left: 80px;
+       margin-left: 110px;
       
     }
     .box-4{
@@ -845,7 +811,7 @@ background-color: cornflowerblue;
        
        border-radius: 15px;
        position: relative;
-       margin-left: 80px;
+       margin-left: 110px;
        
     } 
    
@@ -1277,7 +1243,7 @@ background-color: cornflowerblue;
         .org-img{
             width: 500px;
             height: 500px;
-            margin-left: -5px;
+            margin-left: 55px;
         }
         .sidepart-1 h4{
           font-size: 26px;
@@ -1481,19 +1447,19 @@ background-color: cornflowerblue;
         padding-top: 8px;
         padding-bottom: 8px;
         color: beige;
-        margin-left: 130px;  
+        margin-left: 175px;  
      }
     
      .des-side-heading{
         width: 300px;
-        margin-left: 40px;
+        margin-left: 90px;
         margin-bottom: 15px;
         color: rgb(138, 60, 60);
         font-size: 25px;
      }
      .des-side-para{
         width: 300px;
-        margin-left:50px;
+        margin-left:100px;
         opacity: 90%;
         
        
@@ -1516,19 +1482,19 @@ background-color: cornflowerblue;
         padding-top: 8px;
         padding-bottom: 8px;
         color: beige;
-        margin-left: 130px;  
+        margin-left: 215px;  
      }
     
      .des-side-heading{
-        width: 300px;
-        margin-left: 40px;
+        width: 350px;
+        margin-left: 130px;
         margin-bottom: 15px;
         color: rgb(138, 60, 60);
-        font-size: 25px;
+        font-size: 30px;
      }
      .des-side-para{
         width: 300px;
-        margin-left:50px;
+        margin-left:160px;
         opacity: 90%;
         
        
@@ -1573,14 +1539,43 @@ background-color: cornflowerblue;
  }
 @media  (min-width:921px) and (max-width:1100px)
  {
+    .another{
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+     }
+     .another button{
+        background-color: coral;
+        margin-top: 19px;
+        border-radius: 8px ;
+        border: 1px solid coral;
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        color: beige;
+        margin-left: 370px;  
+     }
     
+     .des-side-heading{
+        width: 500px;
+        margin-left: 250px;
+        margin-bottom: 15px;
+        color: rgb(138, 60, 60);
+        font-size: 35px;
+     }
+     .des-side-para{
+        width: 470px;
+        margin-left:235px;
+        opacity: 90%;
+        
+       
+     }     
   
  }
   @media  (min-width:300px) and (max-width:450px)
  {
-    .carousel-item{
-        height: auto;
-    }
+    
     .slider-img{
         width: 270px;
         height: 300px;
@@ -1591,27 +1586,48 @@ background-color: cornflowerblue;
         width: 300px;
         height: 300px;
         margin-top: 55px;
-        margin-left: -180px;
+        margin-left: -150px;
     }
     .slider-three-img {
         width: 270px;
         height: 300px;
-        margin-top: 60px;
-        margin-left: -90px;
+        margin-top: 80px;
+        margin-left: -60px;
     }
+    .slide-one{
+        background-color: darkcyan;
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        
+        }
+        .slide-two{
+        background-color: rgb(99, 15, 57);
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        }
+        .slide-three{
+        background-color: rgb(14, 73, 133);
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        }
      
  }
 
 @media  (min-width:450px) and (max-width:576px)
  {
-    .carousel-item{
-        height:auto;
-    }
+    
     .slider-img{
         width: 270px;
         height: 300px;
         margin-top: 10px;
         margin-left: -60px;
+       
     }
     .slider-two-img{
         width: 300px;
@@ -1625,19 +1641,77 @@ background-color: cornflowerblue;
         margin-top: 60px;
         margin-left: -70px;
     }
+    .slide-one{
+        background-color: darkcyan;
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        
+        }
+        .slide-two{
+        background-color: rgb(99, 15, 57);
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        }
+        .slide-three{
+        background-color: rgb(14, 73, 133);
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        }
 }
 @media  (min-width:577px) and (max-width:768px)
  {
-    .carousel-item{
-        height:auto;
-    }  
+      
+    .slider-img{
+        width: 270px;
+        height: 300px;
+        margin-top: 10px;
+        margin-left: -40px;
+    }
+    .slider-two-img{
+        width: 300px;
+        height: 300px;
+        margin-top: 55px;
+        margin-left: -140px;
+    }
+    .slider-three-img {
+        width: 270px;
+        height: 300px;
+        margin-top: 60px;
+        margin-left: -70px;
+    }
+    .slide-one{
+        background-color: darkcyan;
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        
+        }
+        .slide-two{
+        background-color: rgb(99, 15, 57);
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        }
+        .slide-three{
+        background-color: rgb(14, 73, 133);
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        }
    
  }
 @media  (min-width:769px) and (max-width:920px)
  {
-    .carousel-item{
-        height:auto;
-    }  
+    
     .slider-img{
         width: 270px;
         height: 300px;
@@ -1656,14 +1730,33 @@ background-color: cornflowerblue;
         margin-top: 60px;
         margin-left: -70px;
     }
+    .slide-one{
+        background-color: darkcyan;
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        
+        }
+        .slide-two{
+        background-color: rgb(99, 15, 57);
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        }
+        .slide-three{
+        background-color: rgb(14, 73, 133);
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        }
    
  }
 @media  (min-width:921px) and (max-width:1100px)
  {
-    .carousel-item{
-        height:700px;
-        width: 100%;
-    }
+    
     .slider-img{
         width: 270px;
         height: 300px;
